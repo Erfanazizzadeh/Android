@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtOne"
+        android:layout_width="153dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="188dp"
+        android:layout_marginBottom="417dp"
+        android:gravity="center"
+        android:textColor="#3B45FF"
+        android:hint="0"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.378"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="218dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        android:onClick="buttonOnclick"
+        android:text="@string/btnOne"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtOne" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="401dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="9dp"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/txtOne"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/in_the_name_of_god_vectors" />
+</androidx.constraintlayout.widget.ConstraintLayout>
