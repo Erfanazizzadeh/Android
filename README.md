@@ -1,1 +1,1 @@
-First App: salavat shomar.apk
+app01: salavat shomar.apk
